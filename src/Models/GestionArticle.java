@@ -139,7 +139,7 @@ public class GestionArticle {
             }    
         }
         catch(SQLException ex){
-            System.err.println("read a generé des erreurs !! "+ ex.getMessage());
+            System.err.println("la requete read a generé des erreurs !! "+ ex.getMessage());
         }
     }
     
